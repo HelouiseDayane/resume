@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/test-email', function () {
-    $recipientEmail = 'enayad.helouise@gmail.com'; // Troque pelo seu endereço de e-mail de teste
+    $recipientEmail = 'testemail@mail.com'; // Troque pelo seu endereço de e-mail de teste
     Mail::to($recipientEmail)->send(new TestEmail());
 
     return 'E-mail de teste enviado!';
