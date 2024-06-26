@@ -48,9 +48,10 @@ Certifique-se de ter o Docker instalado na sua máquina para configurar o ambien
 2. Navegue até a pasta `resume` no terminal.
 3. Execute `composer install` para instalar as dependências do Laravel.
 4. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente necessárias, incluindo as credenciais do banco de dados.
-5. Execute `docker-compose up -d` para iniciar o container MySQL.
+5. Execute `docker-compose up -d` para iniciar o container de email.
 6. Execute `php artisan migrate` para criar as tabelas no banco de dados.
 7. Execute `php artisan serve` para iniciar o servidor Laravel.
+8. Tenha um container ou um banco Mysql no seu computador.
 
 ### Frontend
 
